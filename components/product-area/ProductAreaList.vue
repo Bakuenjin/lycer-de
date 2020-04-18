@@ -19,7 +19,15 @@ export default {
 </script>
 
 <style scoped>
-.product-area-list {
-    padding: 0 60px;
+@media (min-width: 769px) {
+    .product-area-list {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-area-list {
+        padding: 0 10px;
+    }
 }
 </style>
