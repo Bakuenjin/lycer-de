@@ -7,7 +7,7 @@
             <nuxt-link to="/">Startseite</nuxt-link>
             <nuxt-link to="/about">Wir Über Uns</nuxt-link>
             <!-- <nuxt-link to="/">Anfahrt</nuxt-link> -->
-            <nuxt-link to="/company-details">Impressung</nuxt-link>
+            <nuxt-link to="/company-details">Impressum</nuxt-link>
             <nuxt-link to="/privacy">Datenschutzerklärung</nuxt-link>
         </div>
         <div class="contact footer-chunk">
