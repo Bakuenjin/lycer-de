@@ -22,6 +22,69 @@ export const castleDetails = {
     priceList: { fourHours: 80, eightHours: 140, twoDays: 230 }
 }
 
+export const productAreas = [
+    {
+        name: 'Hüpfburgen',
+        products: [
+            {
+                name: 'Profi',
+                thumbnail: 'http://lycer.de/mediac/400_0/media/1e7171969ea64260ffff8046ffffffef.jpg',
+                route: '/burgen/profi'
+            },
+            {
+                name: 'Klein (bis 4 Jahre)',
+                thumbnail: 'http://lycer.de/mediac/400_0/media/4dc74f2a747c01d9ffff8004fffffff1.jpg',
+                route: '/burgen/klein'
+            },
+            {
+                name: 'Wasserparks',
+                thumbnail: 'http://lycer.de/mediac/400_0/media/63787353a265389dffff80a4fffffff0.jpg',
+                route: '/burgen/wasser'
+            }
+        ]
+    },
+    {
+        name: 'Party-Food',
+        products: [
+            {
+                name: 'Slush-Eis',
+                thumbnail: 'https://miet-event.de/wp-content/uploads/2019/01/slush-eis-maschine-mieten-muenchen1.png',
+                route: '/food/slush-ice'
+            },
+            {
+                name: 'Soft-Eis',
+                thumbnail: 'http://lycer.de/mediac/400_0/media/8033ba44b4c31013ffff800afffffff1.jpg',
+                route: '/food/soft-ice'
+            },
+            {
+                name: 'Popcorn',
+                thumbnail: 'http://lycer.de/mediac/400_0/media/4c59a40f17543d0affff809ffffffff0.jpg',
+                route: '/food/popcorn'
+            }
+        ]
+    },
+    {
+        name: 'Elektronische Geräte',
+        products: [
+            {
+                name: 'Crazy Carts',
+                thumbnail: 'http://lycer.de/mediac/400_0/media/e1180e3411c8017effff801afffffff1.JPG',
+                route: '/devices/crazy-carts'
+            },
+            {
+                name: 'Hoverboards',
+                thumbnail: 'http://lycer.de/mediac/400_0/media/4c59a40f17543d0affff80affffffff0.jpg',
+                route: '/devices/hoverboards'
+            },
+            {
+                name: 'Lautsprecher',
+                thumbnail: 'http://lycer.de/mediac/400_0/media/4c59a40f17543d0affff80a4fffffff0.jpg',
+                route: '/devices/speaker'
+            }
+        ]
+    }
+]
+
 export const productList = [
     {
         name: 'Hüpfburgen',

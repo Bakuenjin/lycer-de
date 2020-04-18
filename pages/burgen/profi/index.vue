@@ -1,5 +1,5 @@
 <template>
-    <h1>Unser Angebot!</h1>
+    <h1>Unsere Hüpfburgen!</h1>
 </template>
 
 <script>

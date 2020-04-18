@@ -17,6 +17,11 @@ export default class LycerAPI {
         return mock.castleDetails
     }
 
+    async productAreas() {
+        await mock.sleep()
+        return mock.productAreas
+    }
+
     async productList() {
         await mock.sleep()
         return mock.productList
