@@ -103,8 +103,19 @@ export default {
 
 <style scoped>
 .castle-filter {
-    padding: 0 60px;
     overflow-y: hidden;
+}
+
+@media (min-width: 769px) {
+    .castle-filter {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .castle-filter {
+        padding: 0 10px;
+    }
 }
 
 .icon {
