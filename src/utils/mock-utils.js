@@ -139,3 +139,13 @@ export const contactInfo = {
     mobile: '0174 2508180',
     email: 'lycer@t-online.de'
 }
+
+export const tagList = [
+    { id: 1, title: 'dach', description: 'Überdachte Springfläche' },
+    { id: 2, title: 'rutsche', description: 'Mit Rutsche' },
+    { id: 3, title: 'wasser', description: 'Mit Wasser verwendbar' },
+    { id: 4, title: 'bälle', description: 'Mit Bällen buchbar' },
+    { id: 5, title: 'profi', description: 'Profihüpfburg' },
+    { id: 6, title: 'klein', description: 'Kleine Hüpfburg' },
+    { id: 6, title: 'wasserburg', description: 'Wasserhüpfburg' },
+]
